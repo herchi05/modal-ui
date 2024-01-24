@@ -1,5 +1,5 @@
 {
-  "name": "@walletconnect/modal-core",
+  "name": "@walletconnect/modal-ui",
   "version": "2.6.2",
   "main": "dist/index.js",
   "type": "module",
@@ -16,13 +16,23 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "valtio": "1.11.2"
+    "@walletconnect/modal-core": "2.6.2",
+    "lit": "2.8.0",
+    "motion": "10.16.2",
+    "qrcode": "1.5.3"
+  },
+  "devDependencies": {
+    "@types/qrcode": "1.5.2",
+    "eslint-plugin-lit": "1.9.1",
+    "eslint-plugin-wc": "1.5.0"
   },
   "keywords": [
     "web3",
     "crypto",
     "ethereum",
-    "walletconnect"
+    "walletconnect",
+    "lit",
+    "webcomponents"
   ],
   "author": "WalletConnect <walletconnect.com>",
   "license": "Apache-2.0",
